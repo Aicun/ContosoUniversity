@@ -1,0 +1,55 @@
+﻿VS filter: testpath:TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:TestHooks
+Discovering target: Default
+Discovering tests from assembly: C:\Users\alu\documents\visual studio 2015\Projects\ContosoUniversity\SpecFlow\bin\Debug\SpecFlow.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Unnamed project/ - 
+#1: Default - 
+#2: SpecFlow - 
+#3: Test transform input Table to Ojbect - 
+#5: TestHooks - TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:TestHooks
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\alu\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:Hello. This is Before Test Run.....0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (2.8s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I have a before test method
+Thread#0:T:The count in before is 1
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveABeforeTestMethod() (0.0s)
+Thread#0:B:And I hava an after test method
+Thread#0:T:The count in after is 1
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHavaAnAfterTestMethod() (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:The birthdate of the person is  1999-01-01
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.PersonInfoForHooks(<table>) (0.0s)
+Thread#0:B:Then they should be executed only once
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.ThenTheyShouldBeExecutedOnlyOnce() (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0:T:Bye. This is After Test Run
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 2.9633053 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

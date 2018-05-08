@@ -1,0 +1,255 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Users\alu\documents\visual studio 2015\Projects\ContosoUniversity\SpecFlow\bin\Debug\SpecFlow.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Unnamed project/ - 
+#1: Default - 
+#2: SpecFlow - 
+#3: ContextInjection - 
+#5: FeatureContext - 
+#7: ScenarioContext - 
+#10: Test transform input Table to Ojbect - 
+#14: UpdateCourseCredits - 
+#4: Context Injection - TestAssembly:SpecFlow/Feature:ContextInjection/Scenario:Context+Injection
+#6: Showing information of the feature - TestAssembly:SpecFlow/Feature:FeatureContext/Scenario:Showing+information+of+the+feature
+#8: Showing information of the scenario - TestAssembly:SpecFlow/Feature:ScenarioContext/Scenario:Showing+information+of+the+scenario
+#9: Display error information in AfterScenario - TestAssembly:SpecFlow/Feature:ScenarioContext/Scenario:Display+error+information+in+AfterScenario
+#11: Transform Table, Aicun - TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:Transform+Table%2c+Aicun
+#12: TestHooks - TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:TestHooks
+#13: Test Complex Comversion - TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:Test+Complex+Comversion
+#15: Add two numbers - TestAssembly:SpecFlow/Feature:UpdateCourseCredits/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\alu\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:Hello. This is Before Test Run.....0
+Thread#0:B:Given The person firstname 'firstname' lastname 'lastname'
+Thread#0:T:done: ContextInjectionSteps.GivenThePersonFirstnameLastname("firstname", "lastname") (0.0s)
+Thread#0:B:Then The person data is properly displayed
+Thread#0:T:done: ContextInjectionSteps2.ThenThePersonDataIsProperlyDisplayed() (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.1113287 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:When I execute any scenario in the feature
+Thread#0:T:done: FeatureContextSteps.WhenIExecuteAnyScenarioInTheFeature() (0.0s)
+Thread#0:B:Then the FeatureInfo contains the following information
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field          | Value                            |
+Thread#0:B:  | Tags           | showUpInScenarioInfo, andThisToo |
+Thread#0:B:  | Title          | FeatureContext features          |
+Thread#0:B:  | TargetLanguage | CSharp                           |
+Thread#0:B:  | Language       | en-US                            |
+Thread#0:B:  | Description    | In order to                      |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<FeatureContext>. Actual:<FeatureContext features>. 
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0190447 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:When I execute any scenario in the feature
+Thread#0:T:done: FeatureContextSteps.WhenIExecuteAnyScenarioInTheFeature() (0.0s)
+Thread#0:B:Then the FeatureInfo contains the following information
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field          | Value                            |
+Thread#0:B:  | Tags           | showUpInScenarioInfo, andThisToo |
+Thread#0:B:  | Title          | FeatureContext features          |
+Thread#0:B:  | TargetLanguage | CSharp                           |
+Thread#0:B:  | Language       | en-US                            |
+Thread#0:B:  | Description    | In order to                      |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<FeatureContext>. Actual:<FeatureContext features>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.005013 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:When I execute any scenario in the feature
+Thread#0:T:done: FeatureContextSteps.WhenIExecuteAnyScenarioInTheFeature() (0.0s)
+Thread#0:B:Then the FeatureInfo contains the following information
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field          | Value                            |
+Thread#0:B:  | Tags           | showUpInScenarioInfo, andThisToo |
+Thread#0:B:  | Title          | FeatureContext features          |
+Thread#0:B:  | TargetLanguage | CSharp                           |
+Thread#0:B:  | Language       | en-US                            |
+Thread#0:B:  | Description    | In order to                      |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<FeatureContext>. Actual:<FeatureContext features>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread
+Thread#0:Scheduler: using testitem #8 for thread
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0040107 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:When I execute any scenario
+Thread#0:T:done: ScenarioContextSteps.WhenIExecuteAnyScenario() (0.0s)
+Thread#0:B:Then the ScenarioInfo contains the following information
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field | Value                               |
+Thread#0:B:  | Tags  | showUpInScenarioInfo, andThisToo    |
+Thread#0:B:  | Title | Showing information of the scenario |
+Thread#0:T:done: ScenarioContextSteps.ThenTheScenarioInfoContainsTheFollowingInformation(<table>) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0103476 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:When an error occurs in a step
+Thread#0:T:error: Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:An error ocurred:Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:T:It was of type:AssertFailedException
+Thread#0: Test #9/0 is finished on thread #0 as Failed within 0.0030074 seconds
+Thread#0: Test #9/1 is started on thread #0
+Thread#0:B:When an error occurs in a step
+Thread#0:T:error: Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:An error ocurred:Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:T:It was of type:AssertFailedException
+Thread#0: Test #9/1 is finished on thread #0 as Failed within 0.0030083 seconds
+Thread#0: Test #9/2 is started on thread #0
+Thread#0:B:When an error occurs in a step
+Thread#0:T:error: Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread
+Thread#0:Scheduler: using testitem #11 for thread
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:An error ocurred:Assert.AreEqual failed. Expected:<not correct>. Actual:<correct>. 
+Thread#0:T:It was of type:AssertFailedException
+Thread#0: Test #9/2 is finished on thread #0 as Failed within 0.0020053 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:T:Before Transform runs. Count is 0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I created a person with properties as follows:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | firstName | lastName | birthDate  | gender | age |
+Thread#0:B:  | Aicun     | Lu       | 2001-01-01 | Male   | 13  |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenICreatedAPersonWithPropertiesAsFollows(Aicun Lu 2001-01-...) (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveChangeThePersonWithTheFollowingProperties(<table>) (0.0s)
+Thread#0:B:Then the person infomation should be:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | BirthDate  | Gender | Age | Greeting        |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  | good morning Lu |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.ThenThePersonInfomationShouldBe(<table>) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After Scenario.
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0.0160427 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I have a before test method
+Thread#0:T:The count in before is 1
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveABeforeTestMethod() (0.0s)
+Thread#0:B:And I hava an after test method
+Thread#0:T:The count in after is 1
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHavaAnAfterTestMethod() (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:The birthdate of the person is  1999-01-01
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.PersonInfoForHooks(<table>) (0.0s)
+Thread#0:B:Then they should be executed only once
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.ThenTheyShouldBeExecutedOnlyOnce() (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0.0067642 seconds
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I have entered following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name | Color |
+Thread#0:B:  | XL   | Blue  |
+Thread#0:B:  | L    | Red   |
+Thread#0:T:The color of this shirt is Blue
+Thread#0:T:The color of this shirt is Red
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredFollowingProperties(System.Collection...) (0.0s)
+Thread#0:B:Then the converted result should be a complex object
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.ThenTheConvertedResultShouldBeAComplexObject() (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #15 from normal test queue 
+Thread#0:Scheduler: considering testitem #15 for thread
+Thread#0:Scheduler: using testitem #15 for thread
+Thread#0:Scheduler: Test #15 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 0.0060157 seconds
+Thread#0: Test #15/0 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: UpdateCourseCreditsSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: UpdateCourseCreditsSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: UpdateCourseCreditsSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:done: UpdateCourseCreditsSteps.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0:T:Bye. This is After Test Run
+Thread#0: Test #15/0 is finished on thread #0 as Succeeded within 0.0060163 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8 (test executions: 12)
+Succeeded: 6
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

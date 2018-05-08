@@ -1,0 +1,109 @@
+﻿VS filter: testpath:TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:Transform+Table%2c+Aicun
+Discovering target: Default
+Discovering tests from assembly: C:\Users\alu\documents\visual studio 2015\Projects\ContosoUniversity\SpecFlow\bin\Debug\SpecFlow.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Unnamed project/ - 
+#1: Default - 
+#2: SpecFlow - 
+#3: Test transform input Table to Ojbect - 
+#4: Transform Table, Aicun - TestAssembly:SpecFlow/Feature:Test+transform+input+Table+to+Ojbect/Scenario:Transform+Table%2c+Aicun
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\alu\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I created a person with properties as follows:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | firstName | lastName | birthDate  | gender | age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenICreatedAPersonWithPropertiesAsFollows(Aicun Lu 1999-01-...) (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveChangeThePersonWithTheFollowingProperties(<table>) (0.0s)
+Thread#0:B:Then the person infomation should be:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | BirthDate  | Gender | Age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Aicun Lu 1999-01-01 Male 13 >. Actual:<Aicun Lu 1999-01-01 Male 13 good morning Lu>. 
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.1343585 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I created a person with properties as follows:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | firstName | lastName | birthDate  | gender | age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenICreatedAPersonWithPropertiesAsFollows(Aicun Lu 1999-01-...) (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveChangeThePersonWithTheFollowingProperties(<table>) (0.0s)
+Thread#0:B:Then the person infomation should be:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | BirthDate  | Gender | Age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Aicun Lu 1999-01-01 Male 13 >. Actual:<Aicun Lu 1999-01-01 Male 13 good morning Lu>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0069935 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have entered value 'good morning'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredValue("good morning") (0.0s)
+Thread#0:B:And I have entered another value 'Lu'
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveEnteredAnotherValue("Lu") (0.0s)
+Thread#0:B:Given I created a person with properties as follows:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | firstName | lastName | birthDate  | gender | age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenICreatedAPersonWithPropertiesAsFollows(Aicun Lu 1999-01-...) (0.0s)
+Thread#0:B:And I have change the person with the following properties:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | BirthDate  |
+Thread#0:B:  | 1999-01-01 |
+Thread#0:T:done: TestTransformInputTableToOjbectSteps.GivenIHaveChangeThePersonWithTheFollowingProperties(<table>) (0.0s)
+Thread#0:B:Then the person infomation should be:
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | FirstName | LastName | BirthDate  | Gender | Age |
+Thread#0:B:  | Aicun     | Lu       | 1999-01-01 | Male   | 13  |
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Aicun Lu 1999-01-01 Male 13 >. Actual:<Aicun Lu 1999-01-01 Male 13 good morning Lu>. 
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0060157 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
